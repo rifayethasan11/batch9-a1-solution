@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: "Merriweather", serif;
 }
+
 /* banner section style starts here */
-.banner-container{
+.banner-container {
     max-width: 1320px;
     margin: 0 auto;
     /* border: 2px solid red; */
@@ -20,21 +23,25 @@ body{
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: overlay;
+    border-radius: 16px;
 }
-.banner-content{
+
+.banner-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 600px;
     align-items: center;
 }
-.banner-content p{
+
+.banner-content p {
     color: white;
     font-size: 32px;
     font-weight: 400;
     line-height: 40px;
 }
-.banner-content h1{
+
+.banner-content h1 {
     color: white;
     font-size: 72px;
     font-weight: 900;
@@ -45,40 +52,113 @@ body{
 
 /* second section starts here */
 
-.second-section-container{
+.second-section-container {
     width: 802.9px;
     height: 806px;
     /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 120px;
 }
-.second-section-content{
+
+.second-section-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.second-section-content h1{
+
+.second-section-content h1 {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
     line-height: 107px;
 }
-.second-section-content p{
+
+.second-section-content p {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     margin: 30px;
 }
-.second-section-content h3{
+
+.second-section-content h3 {
     color: rgb(7, 2, 17);
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
 }
-.image-container img{
-    height: 100%;
-    width: 100%;
+
+.image-container {
+    width: 802.9px;
+    height: 500px;
+    margin-top: 50px;
 }
+
+.image-container image {
+    width: 100%;
+    height: 100%;
+}
+
+/* second section ends here */
+
+/* midnight party section styles starts here */
+
+.midnight-party-container {
+    width: 1320px;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    background-image: url(../new-year-offer-resources/images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    margin-top: 100px;
+}
+.leftside-content {
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.leftside-content h2 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-left: 60px;
+}
+.leftside-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 60px;
+}
+#midnight-btn {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.rightside-content {
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid blue; */
+}
+.rightside-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* midnight party section styles ends here */
