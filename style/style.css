@@ -365,6 +365,7 @@ button {
     z-index: 1;
     margin-top: 50px;
 }
+
 .discount {
     margin-left: 70%;
     margin-top: 10%;
@@ -372,3 +373,125 @@ button {
 
 
 /* holiday style ends here */
+/* portfolio style starts here */
+
+.portfolio-container {
+    width: 1320px;
+    height: 1163px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.portfolio-text-content h5 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.portfolio-text-content h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 14px;
+}
+
+.portfolio-text-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.item {
+    width: 424px;
+    height: 450px;
+    margin-top: 40px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+
+/* portfolio style ends here */
+/* subscribe style starts here */
+
+
+.sub-container {
+    width: 1320px;
+    height: 616px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.sub-items h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 25px;
+}
+
+.sub-items p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sub-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.sub-btn {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .sub-btn input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .sub-btn button {
+    background-color: red;
+    border: 2px solid #ff0000; 
+    outline: red;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Inter;
+  }
+
+/* subscribe style ends here */
